@@ -1,0 +1,20 @@
+/*
+ Theme Name:   Twenty Fourteen Child
+ Theme URI:    http://t3n.de/news/wordpress-child-theme-erstellen
+ Description:  Twenty Fourteen Child-Theme
+ Author:       Jonathan Torke
+ Author URI:   http://pixeltuner.de
+ Template:     twentyfourteen
+ Version:      1.0.0
+ Tags:         light, dark, right-sidebar, responsive-layout
+ Text Domain:  twenty-fourteen-child
+*/
+
+@import url("../twentysixteen/style.css");
+
+/* Theme Anpassungen beginnen hier */
+.site-title
+{
+    font-size: 26px;
+}
+/* Theme Anpassung enden hier */
