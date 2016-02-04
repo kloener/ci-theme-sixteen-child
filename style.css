@@ -1,13 +1,13 @@
 /*
- Theme Name:   Twenty Fourteen Child
- Theme URI:    http://t3n.de/news/wordpress-child-theme-erstellen
- Description:  Twenty Fourteen Child-Theme
- Author:       Jonathan Torke
- Author URI:   http://pixeltuner.de
- Template:     twentyfourteen
+ Theme Name:   Christian Illies Blog Theme - Twenty Sixteen Child
+ Theme URI:    https://github.com/kloener/ci-theme-sixteen-child
+ Description:  Twenty Sixteen Child-Theme for my own blog
+ Author:       Christian Illies
+ Author URI:   https://christianillies.de/
+ Template:     twentysixteen
  Version:      1.0.0
  Tags:         light, dark, right-sidebar, responsive-layout
- Text Domain:  twenty-fourteen-child
+ Text Domain:  ci-theme-sixteen-child
 */
 
 @import url("../twentysixteen/style.css");
