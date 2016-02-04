@@ -12,9 +12,57 @@
 
 @import url("../twentysixteen/style.css");
 
-/* Theme Anpassungen beginnen hier */
+body {
+  background-color: transparent;
+}
+
+body, button, input, select, textarea {
+  font-family: Georgia, serif;
+  line-height: 1.55;
+}
+code, kbd, tt, var, samp, pre {
+  font-family: Courier, monospace;
+}
+pre {
+  font-size: 0.85rem;
+  color: #0d0;
+  background-color: #444;
+  border-radius: 0.3125rem;
+}
+.main-navigation, .entry-title, .entry-footer {
+  font-family: "Helvetica Neue", sans-serif;
+}
 .site-title
 {
-    font-size: 26px;
+    font-size: 2.5rem;
+    font-weight: 500;
 }
+.entry-title {
+  font-weight: 400;
+}
+.entry-footer {
+  font-size: 0.9rem;
+}
+.widget {
+  border-top: 2px solid #4a4a4a;
+}
+.tagcloud a, .tagcloud a:hover, .tagcloud a:focus {
+  background-color: #007acc;
+  color: #fff;
+  border: 0;
+  border-radius: 0.125rem;
+}
+.tagcloud a:hover, .tagcloud a:focus {
+  text-decoration: underline;
+}
+
+
+/* Twitter plugin style*/
+#sidebar ul li div.rtw_name, div.rtw_name, div.rtw_name a {
+  padding-bottom: 0.25rem;
+}
+#sidebar ul li div.rtw_id, div.rtw_id, div.rtw_id a {
+  padding-bottom: 0.5rem;
+}
+
 /* Theme Anpassung enden hier */
